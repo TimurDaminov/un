@@ -66,12 +66,6 @@ export let countrys = [
         countriFlag: 'ie',
     },
     {
-        delegatName: 'Хошимова Омина',
-        countryName: 'Государство Япония',
-        countriStatus: false,
-        countriFlag: 'jp',
-    },
-    {
         delegatName: 'Туляганов Самандар',
         countryName: 'Украина',
         countriStatus: false,
