@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модель ООН</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <img src="" alt="" class="header__logo-img">
+                <img src="" alt="" class="header__logo-img">
+            </div>
+            <nav class="header__nav">
+                <ul class="list-reset header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Таймер</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="members.html" class="header__nav-link">Участники</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__logo">
+                <img src="" alt="" class="header__logo-img">
+                <img src="" alt="" class="header__logo-img">
+            </div>
+        </header>
+        <main class="main">
+            <section class="timer" id="timer">
+                <h2 class="timer__title">
+                    Время дебатов
+                </h2>
+                <div class="timer__times">
+                    <h3 class="timer__label">
+                        Введите количество секунд на каждого участника
+                    </h3>
+                    <input type="number" id="timer-input" class="timer__input" required min="30" max="600" maxlength="3" minlength="2">
+                </div>
+                <button class="btn-reset btn-1" id="timer-btn" type="submit">
+                    Сохранить
+                </button>
+                <h3 class="timer__alert" id="timer-mess">
+
+                </h3>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="js/timer.js"></script>
+</body>
+</html>
