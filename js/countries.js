@@ -251,4 +251,10 @@ export let countrys = [
         countriStatus: false,
         countriFlag: 'cz',
     },
+    {
+        delegatName: 'Хамраев Азизбек',
+        countryName: 'Исламская Республика Иран',
+        countriStatus: false,
+        countriFlag: 'ir',
+    },
 ]
