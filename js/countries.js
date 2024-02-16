@@ -257,4 +257,10 @@ export let countrys = [
         countriStatus: false,
         countriFlag: 'ir',
     },
+    {
+        delegatName: 'Зуфаров Имрон',
+        countryName: 'Объединённые Арабские Эмираты',
+        countriStatus: false,
+        countriFlag: 'ae',
+    },
 ]
