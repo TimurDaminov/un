@@ -257,4 +257,10 @@ export let countrys = [
         countriStatus: false,
         countriFlag: 'ae',
     },
+    {
+        delegatName: 'Хошимова Омина',
+        countryName: 'Государство Япония',
+        countriStatus: false,
+        countriFlag: 'jp',
+    },
 ]
